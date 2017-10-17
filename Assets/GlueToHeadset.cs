@@ -16,6 +16,7 @@ public class GlueToHeadset : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        this.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, (player.transform.position.z + distanceFromCamera));
+        // Better to make the following Gameobject children of the Camera
+        this.transform.position = player.transform.position + player.transform.forward * distanceFromCamera;
     }
 }
