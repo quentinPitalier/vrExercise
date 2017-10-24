@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/exercise1_quentin.unity
+    guid: 3c680b2e12126ce40b778b6abdb05c97
+  - enabled: 1
+    path: Assets/dev_raffaella.scene.unity
+    guid: 68db309bff6751645a2cfab1b86021a6
